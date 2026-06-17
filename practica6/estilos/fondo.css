@@ -1,0 +1,44 @@
+body{
+	background: url("../img/corazon.png");
+	font-family: cursive;
+}
+
+header, main, footer{
+	background: white;
+	width: 70%;
+	margin: 10px auto;
+	padding: 15px;
+	border-radius: 20px;
+
+}
+
+/*Centrar texto en header y footer*/
+
+header{
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+}
+
+/*Texto de caja main justificado y con mayor interlineado*/
+
+main p{
+	text-align: justify;
+	line-height: 32px;
+}
+
+main:hover{
+	background: #e5e5e5;
+	color:#14213d;
+}
+header:hover{
+	background: #4a5759;
+	color: #14213d;
+}
+
+footer:hover{
+	background: #aec3b0;
+	color: #14213d;
+}
